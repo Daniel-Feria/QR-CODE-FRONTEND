@@ -1,0 +1,45 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #c5e1f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card_code  {
+    width: 25rem;
+    height: 40rem;
+    background: #fff;
+    border-radius: 2rem;
+    box-shadow: 0.5px 0.5px 0.5px 5px rgba(0, 0, 0, 0.075);
+}
+
+.img-principal{ 
+    width: 20rem;
+    height: 20rem;
+    border-radius: 8px;
+    margin: 2.5rem;
+}
+
+.Principal_text {
+    display: flex;
+    justify-content: center;
+    font-size:xx-large;
+    font-weight: 900;
+    margin-left: 1.5rem;
+}
+
+.Secundary_text {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    font-weight: none;
+}
